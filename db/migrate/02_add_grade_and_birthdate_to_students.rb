@@ -1,5 +1,6 @@
 class AddGradeAndBirthdateToStudents < ActiveRecord::Base[5.1]
 def change
-  add_column :grade, :birthdate, :  
+  add_column :students, :grade, :Integer 
+  add_column :students, :birthdate, :string  
 end
 end
