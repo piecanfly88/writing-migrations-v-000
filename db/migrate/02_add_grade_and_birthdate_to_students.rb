@@ -1,1 +1,3 @@
-clas AddGradeAndBirthdateToStudents < ActiveRecord::Base[5.1]
+class AddGradeAndBirthdateToStudents < ActiveRecord::Base[5.1]
+
+end
